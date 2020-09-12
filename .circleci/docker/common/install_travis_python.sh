@@ -52,8 +52,10 @@ if [ -n "$TRAVIS_PYTHON_VERSION" ]; then
   as_jenkins pip install numpy pyyaml
 
   as_jenkins pip install \
+      click \
       future \
       hypothesis \
+      mock \
       protobuf \
       pytest \
       pillow \
